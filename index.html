@@ -2,32 +2,33 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="index_master.css">
     <title></title>
+    
     <!-- Latest compiled and minified CSS -->
     <!-- Bootstrap CSS, JS, and jQuery -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-</head>
+  </head>
 
   <body>
 
-    <!--  DOCUMENTATION NAVBAR -->
+    <!-- DOCUMENTATION NAVBAR -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
       <!-- TYPICALLY WE HAVE A BRAND LINK -->
-      <!-- <a class="navbar-brand" href="#">BRAND</a> -->
-        <a class="navbar-brand" href="#">Data Science</a>
+        <a class="navbar-brand" href="https://github.com/ljyang100/dataScience">Data Science</a>
 
         <!-- THIS SETS UP THE COLLAPSABLE BUTTON ELEMENT (HAMBURGER) -->
         <!-- Without the following button, there will not be a collapsable button (hamburger) when I reduce size of the browser-->
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>   </button>
-
+        
         <!-- Note if I put the BRAND and hamburger button into the following collapse DIV, then they will be all collapsed-->
 
    <!-- THEN WE PUT AN UNORDERED LIST INSIDE OF A COLLAPSE DIV -->
@@ -36,7 +37,7 @@
 
     <ul class="navbar-nav mr-auto">
 
-
+    
       <li class="nav-item dropdown">
         <!-- TOP LEVEL DROPDOWN -->
         <a class="nav-link dropdown-toggle" href="https://github.com/ljyang100/dataScience/tree/master/mathematics" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -48,12 +49,12 @@
           <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/linearAlgebra">Linear Algebra</a>
           <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/numericalCalculation">Numerical Calculation</a>
           <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/physics">Physics</a>
-          <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/statistics">Statistics</a>
+          <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/statistics">Statistics</a> 
         </div>
 
-      </li>
-
-
+      </li>  
+    
+    
       <li class="nav-item dropdown">
         <!-- TOP LEVEL DROPDOWN -->
         <a class="nav-link dropdown-toggle" href="https://github.com/ljyang100/dataScience/tree/master/machineLearning" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -64,10 +65,60 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
            <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/machineLearning/fundamentals">Fundamentals</a>
            <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/machineLearning/algorithms">Algorithms</a>
+        
         </div>
+      </li>     
+    
 
-      </li>
+    
+      <li class="nav-item dropdown">
+        <!-- TOP LEVEL DROPDOWN -->
+        <a class="nav-link dropdown-toggle" href="https://github.com/ljyang100/dataScience/tree/master/deepLearning" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Deep Learning
+        </a>
 
+        <!-- ONE DIVISION IN THE DROPDOWN -->
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="">Neural Networks</a>
+           <a class="dropdown-item" href="">Convolutional Neural Networks</a>
+           <a class="dropdown-item" href="">Recurrent Neural Networks</a>
+        
+        </div>
+      </li> 
+    
+
+        <li class="nav-item dropdown">
+        <!-- TOP LEVEL DROPDOWN -->
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Time Series
+        </a>
+
+        <!-- ONE DIVISION IN THE DROPDOWN -->
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="">Neural Networks</a>
+           <a class="dropdown-item" href="">Convolutional Neural Networks</a>
+           <a class="dropdown-item" href="">Recurrent Neural Networks</a>
+        
+        </div>
+        </li>
+        
+        
+        <li class="nav-item dropdown">
+        <!-- TOP LEVEL DROPDOWN -->
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Programming
+        </a>
+
+        <!-- ONE DIVISION IN THE DROPDOWN -->
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="">Neural Networks</a>
+           <a class="dropdown-item" href="">Convolutional Neural Networks</a>
+           <a class="dropdown-item" href="">Recurrent Neural Networks</a>
+        
+        </div>
+        </li>        
+    
+    
 
       <li class="nav-item dropdown">
         <!-- TOP LEVEL DROPDOWN -->
@@ -80,14 +131,11 @@
           <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/pandas">Pandas</a>
           <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/spreadsheets">Spreadsheets</a>
           <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/obtaining%20data">Obtaining Data</a>
-          <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/data%20visualization">Data Visualization</a>
+          <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/data%20visualization">Data Visualization</a> 
         </div>
 
       </li>
-
-
-
-
+    
     </ul>
 
     <!-- CAN EVEN ADD A SEARCH FORM -->
@@ -102,18 +150,12 @@
 
   <div class="container">
     <div class="jumbotron">
-      <h1>Hello</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2>This site is under construction. Will be available in July, 2019.</h2>
+      <p> </p>
+      
     </div>
 
   </div>
-  <div class="container">
-    <h2>More Stuff</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-  </div>
-
+ 
 </body>
 </html>
