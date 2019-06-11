@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="index_master.css">
+
     <title></title>
     
     <!-- Latest compiled and minified CSS -->
@@ -11,152 +11,144 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="index_master.css">
+    
   </head>
 
   <body>
 
-    <!-- DOCUMENTATION NAVBAR -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-      <!-- TYPICALLY WE HAVE A BRAND LINK -->
-        <a class="navbar-brand" href="https://github.com/ljyang100/dataScience">Data Science</a>
-
-        <!-- THIS SETS UP THE COLLAPSABLE BUTTON ELEMENT (HAMBURGER) -->
-        <!-- Without the following button, there will not be a collapsable button (hamburger) when I reduce size of the browser-->
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>   </button>
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+        <!-- <nav class="navbar navbar-dark bg-primary"> -->
+        <!-- <nav class="navbar navbar-light" style="background-color: #e3f2fd;"> -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary"> 
         
-        <!-- Note if I put the BRAND and hamburger button into the following collapse DIV, then they will be all collapsed-->
-
-   <!-- THEN WE PUT AN UNORDERED LIST INSIDE OF A COLLAPSE DIV -->
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-
-    <ul class="navbar-nav mr-auto">
-
-    
-      <li class="nav-item dropdown">
-        <!-- TOP LEVEL DROPDOWN -->
-        <a class="nav-link dropdown-toggle" href="https://github.com/ljyang100/dataScience/tree/master/mathematics" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Mathematics
-        </a>
-
-        <!-- ONE DIVISION IN THE DROPDOWN -->
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/linearAlgebra">Linear Algebra</a>
-          <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/numericalCalculation">Numerical Calculation</a>
-          <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/physics">Physics</a>
-          <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/statistics">Statistics</a> 
-        </div>
-
-      </li>  
-    
-    
-      <li class="nav-item dropdown">
-        <!-- TOP LEVEL DROPDOWN -->
-        <a class="nav-link dropdown-toggle" href="https://github.com/ljyang100/dataScience/tree/master/machineLearning" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Machine Learning
-        </a>
-
-        <!-- ONE DIVISION IN THE DROPDOWN -->
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/machineLearning/fundamentals">Fundamentals</a>
-           <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/machineLearning/algorithms">Algorithms</a>
-        
-        </div>
-      </li>     
-    
-
-    
-      <li class="nav-item dropdown">
-        <!-- TOP LEVEL DROPDOWN -->
-        <a class="nav-link dropdown-toggle" href="https://github.com/ljyang100/dataScience/tree/master/deepLearning" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Deep Learning
-        </a>
-
-        <!-- ONE DIVISION IN THE DROPDOWN -->
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="">Neural Networks</a>
-           <a class="dropdown-item" href="">Convolutional Neural Networks</a>
-           <a class="dropdown-item" href="">Recurrent Neural Networks</a>
-        
-        </div>
-      </li> 
-    
-
-        <li class="nav-item dropdown">
-        <!-- TOP LEVEL DROPDOWN -->
-        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Time Series
-        </a>
-
-        <!-- ONE DIVISION IN THE DROPDOWN -->
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="">Neural Networks</a>
-           <a class="dropdown-item" href="">Convolutional Neural Networks</a>
-           <a class="dropdown-item" href="">Recurrent Neural Networks</a>
-        
-        </div>
-        </li>
-        
-        
-        <li class="nav-item dropdown">
-        <!-- TOP LEVEL DROPDOWN -->
-        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Programming
-        </a>
-
-        <!-- ONE DIVISION IN THE DROPDOWN -->
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="">Neural Networks</a>
-           <a class="dropdown-item" href="">Convolutional Neural Networks</a>
-           <a class="dropdown-item" href="">Recurrent Neural Networks</a>
-        
-        </div>
-        </li>        
-    
-    
-
-      <li class="nav-item dropdown">
-        <!-- TOP LEVEL DROPDOWN -->
-        <a class="nav-link dropdown-toggle" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Data Manipulation
-        </a>
-
-        <!-- ONE DIVISION IN THE DROPDOWN -->
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/pandas">Pandas</a>
-          <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/spreadsheets">Spreadsheets</a>
-          <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/obtaining%20data">Obtaining Data</a>
-          <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/data%20visualization">Data Visualization</a> 
-        </div>
-
-      </li>
-    
-    </ul>
-
-    <!-- CAN EVEN ADD A SEARCH FORM -->
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-
-  <!-- OTHER STUFF ON THE PAGE. These are not belonging to nav bars and collapsed stuff -->
-
-  <div class="container">
-    <div class="jumbotron">
-      <h2>This site is under construction.</h2>
-      <h2>Will be available in July, 2019.</h2>
-      <p> </p>
-      
-    </div>
-
-  </div>
  
-</body>
+            <a class="navbar-brand" href="https://github.com/ljyang100/dataScience">Data Science</a>
+
+            <!-- THIS SETS UP THE COLLAPSABLE BUTTON ELEMENT (HAMBURGER) -->
+            <!-- Without the following button, there will not be a collapsable button (hamburger) when I reduce size of the browser-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>   </button>
+
+            <!-- Note if I put the BRAND and hamburger button into the following collapse DIV, then they will be all collapsed-->
+
+            <!-- THEN WE PUT AN UNORDERED LIST INSIDE OF A COLLAPSE DIV -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                  <ul class="navbar-nav mr-auto">
+
+                          <li class="nav-item dropdown">
+                            <!-- TOP LEVEL DROPDOWN -->
+                            <a class="nav-link dropdown-toggle" href="https://github.com/ljyang100/dataScience/tree/master/mathematics" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Mathematics
+                            </a>
+
+                            <!-- ONE DIVISION IN THE DROPDOWN -->
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/linearAlgebra">Linear Algebra</a>
+                              <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/numericalCalculation">Numerical Calculation</a>
+                              <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/physics">Physics</a>
+                              <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/mathematics/statistics">Statistics</a> 
+                            </div>
+
+                          </li>  
+
+
+                          <li class="nav-item dropdown">
+                            <!-- TOP LEVEL DROPDOWN -->
+                            <a class="nav-link dropdown-toggle" href="https://github.com/ljyang100/dataScience/tree/master/machineLearning" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Machine Learning
+                            </a>
+
+                            <!-- ONE DIVISION IN THE DROPDOWN -->
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                               <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/machineLearning/fundamentals">Fundamentals</a>
+                               <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/machineLearning/algorithms">Algorithms</a>
+
+                            </div>
+                          </li>     
+
+
+                          <li class="nav-item dropdown">
+                            <!-- TOP LEVEL DROPDOWN -->
+                            <a class="nav-link dropdown-toggle" href="https://github.com/ljyang100/dataScience/tree/master/deepLearning" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Deep Learning
+                            </a>
+
+                            <!-- ONE DIVISION IN THE DROPDOWN -->
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                               <a class="dropdown-item" href="">Neural Networks</a>
+                               <a class="dropdown-item" href="">Convolutional Neural Networks</a>
+                               <a class="dropdown-item" href="">Recurrent Neural Networks</a>
+
+                            </div>
+                          </li> 
+
+
+                            <li class="nav-item dropdown">
+                            <!-- TOP LEVEL DROPDOWN -->
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Time Series
+                            </a>
+
+                            <!-- ONE DIVISION IN THE DROPDOWN -->
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                               <a class="dropdown-item" href="">Neural Networks</a>
+                               <a class="dropdown-item" href="">Convolutional Neural Networks</a>
+                               <a class="dropdown-item" href="">Recurrent Neural Networks</a>
+
+                            </div>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                            <!-- TOP LEVEL DROPDOWN -->
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Programming
+                            </a>
+
+                            <!-- ONE DIVISION IN THE DROPDOWN -->
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                               <a class="dropdown-item" href="">Neural Networks</a>
+                               <a class="dropdown-item" href="">Convolutional Neural Networks</a>
+                               <a class="dropdown-item" href="">Recurrent Neural Networks</a>
+
+                            </div>
+                            </li>        
+
+
+                          <li class="nav-item dropdown">
+                            <!-- TOP LEVEL DROPDOWN -->
+                            <a class="nav-link dropdown-toggle" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Data Manipulation
+                            </a>
+
+                            <!-- ONE DIVISION IN THE DROPDOWN -->
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/pandas">Pandas</a>
+                              <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/spreadsheets">Spreadsheets</a>
+                              <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/obtaining%20data">Obtaining Data</a>
+                              <a class="dropdown-item" href="https://github.com/ljyang100/dataScience/tree/master/dataManipulation/data%20visualization">Data Visualization</a> 
+                            </div>
+
+                          </li>
+
+                  </ul>
+            </div>
+        </nav>
+
+        
+        <!-- OTHER STUFF ON THE PAGE. These are not belonging to nav bars and collapsed stuff -->
+        <div class="container">
+            <div class="jumbotron">
+                  <h2>This site is under construction.</h2>
+                  <h2>Will be available in July, 2019.</h2>
+                  <p> </p>
+            </div>
+
+        </div>
+
+  </body>
 </html>
